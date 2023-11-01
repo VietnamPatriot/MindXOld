@@ -1,0 +1,58 @@
+body {
+    background-color: black;
+}
+
+button {
+    display: inline-block;
+    width: 10vmax;
+    height: 3vmax;
+    font-family:'Courier New', Courier, monospace;
+    font-size: larger;
+    
+}
+
+input {
+    display: inline;
+    width: 30vmax;
+    font-family:'Courier New', Courier, monospace;
+    font-size: larger;
+    border-style: solid;
+    border-width: 5px;
+    border-color:beige;
+    border-radius: 5px;
+}
+
+#input {
+    padding-top: 25px;
+    display: flex;
+    justify-content: center;
+}
+
+label {
+    color: white
+}
+
+.grid-container {
+    padding-top: 100px;
+    display: grid-inline;
+    gap: 50px;
+    row-gap: 150px;
+    grid-template-columns: auto auto auto;
+}
+
+.grid-item {
+    background-color: gray;
+    border-style: solid;
+    display: inline-block;
+    width: 32.5%;
+    height: 20vmax;
+    transition: all cubic-bezier(0.175, 0.885, 0.32, 1.275);
+}
+
+.grid-item:hover {
+    background-color: rgb(156, 156, 156);
+    border-style: solid;
+    display: inline-block;
+    width: 33%;
+    height: 20vmax;
+}
