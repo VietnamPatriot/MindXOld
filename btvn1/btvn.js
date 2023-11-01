@@ -18,4 +18,44 @@ for (let i = 0; i < A1.length; i++) {
 }
 console.log(A2);
 
-let person = prompt("");
+let yn = ["","","","",""]
+yn[0] = prompt("Em đã ăn cơm chưa?");
+if (yn[0] == "yes") {
+    yn[1] = prompt("Em có muốn ăn bánh ngọt tráng miệng");
+    if (yn[1] == "yes") {
+        alert("ok");
+    }
+    else if (yn[0] == "no") {
+        alert("ok");
+    }
+    
+}
+else if (yn[0] == "no") {
+    yn[1] = prompt("Em có muốn ăn cơm sườn xào chua ngọt không?");
+    if (yn[1] == "yes") {
+        yn[2] = prompt("Em có muốn ăn bánh ngọt tráng miệng");
+        if (yn[2] == "yes") {
+            alert("ok");
+        }
+        else if (yn[2] == "no") {
+            alert("ok");
+        }
+    }
+    else if (yn[1] == "no") {
+        yn[2] = prompt("Em có muốn ăn cơm sườn xào không?");
+        if (yn[2] == "yes") {
+            yn[3] = prompt("Em có muốn ăn bánh ngọt tráng miệng");
+            if (yn[3] == "yes") {
+                alert("ok");
+            }
+            else if (yn[3] == "no") {
+                alert("ok");
+            }
+        }
+        else if (yn[2] == "no") {
+            yn[3] = prompt("Em có muốn ăn cơm sườn không?");
+        }
+    }
+}
+
+console.log(yn)
