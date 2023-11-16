@@ -1,0 +1,21 @@
+.modal1 {
+    width: 35vmax;
+    margin: auto;
+    border-style: solid;
+    border-radius: 12px;
+    border-color: black;
+    padding: 35px;
+    padding-top: 70px;
+    padding-bottom: 70px;
+    margin-top: 50px;
+    box-shadow: 3px 3px 2px 2px;
+    background-color: whitesmoke;
+}
+
+.form-control {
+    border-style: solid;
+}
+
+.upspace {
+    margin-top: 50px;
+}
