@@ -4,15 +4,16 @@
     border-color: black;
     margin: 10px;
     text-align: center;
-    transition: all cubic-bezier(0.075, 0.82, 0.165, 1)
+    transition: all 0.3s
 }
 
 .card:hover {
-    box-shadow: 2px 2px 3px 3px
+    box-shadow: 2px 2px 3px 3px;
+    box-shadow: 2px 1.5px 2px 2px;
+    transform: translateX(-1%);
 }
 
 .card h5, h6 {
-    
     font-family: 'Courier New', Courier, monospace;
 }
 
@@ -39,6 +40,7 @@ img {
     font-size: 17.5px;
     font-family: 'Courier New', Courier, monospace;
     padding-left: 25px;
+    margin-top: 10px;
 }
 
 #search {
@@ -49,8 +51,34 @@ img {
     background-color: gray;
     border-radius: 5px;
     border-width: 3px;
+    transition: all 0.3s;
+}
+
+#search:hover {
+    box-shadow: 1px 0.75px 1px 1px;
+    transform: translate(-1%);
 }
 
 .hide {
     display: none;
+}
+
+.shopping {
+    width: 20%;
+    height: 6%;
+    display: inline-block;
+}
+
+#shopping-bt {
+    border-radius: 60px;
+    padding: 15px;
+    margin: auto;
+    width: 20vmax;
+    display: block;
+    transition: all 0.3s;
+}
+
+#shopping-bt:hover {
+    box-shadow: 2px 1.5px 2px 2px;
+    transform: translateX(-1%);
 }
